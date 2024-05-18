@@ -26,6 +26,15 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+h1 {
+  font-family: sans-serif;
+  font-size: large;
+}
+
+main {
+  background-color: white;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

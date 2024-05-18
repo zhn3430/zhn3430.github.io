@@ -1,14 +1,13 @@
-import Image from "next/image";
+import Navbar from './components/nav/navbar'
+import HeroBody from './components/hero/heroBody'
 
 export default function Home() {
   return (
-    <body className="bg-black">
-      <div className="text-center my-8">
-        <h1 className="text-2xl text-red-400 ">
-          I'm always watching.
-          ╭༼ ʘ̆~◞౪◟~ʘ̆ ༽╮
-        </h1>
-      </div>
-    </body>
+    <>
+      <main>
+        <Navbar />
+        <HeroBody/>
+      </main>
+    </>
   );
 }
