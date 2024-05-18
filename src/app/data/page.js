@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <>
-      <main>
+      <main className="bg-white">
         <h1>heheheaw</h1>
       </main>
     </>
